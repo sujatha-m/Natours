@@ -17,6 +17,7 @@ Natours is fictional company that offers tours in a nature for adventours people
    * [Contributing](#contributing)
    * [License](#license)
    * [Visuals](#visuals)
+   * [Acknowledgements](#acknowledgements)
 
 
 ## Description
@@ -45,3 +46,6 @@ This website has no functionality, it only presents the user interface of a tour
 # ![My Pic](https://avatars0.githubusercontent.com/u/59231894?v=4)
 
 jhanavi.bhushan@gmail.com
+
+## Acknowledgements
+This project is part of the Advanced CSS and Sass course on Udemy by Jonas Schmedtmann
