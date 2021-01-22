@@ -1,7 +1,7 @@
 # Natours
 
 **Deployed Web URL**
-
+https://sujatha-m.github.io/Natours/index
 
 Natours is fictional company that offers tours in a nature for adventours people.
 
@@ -16,7 +16,6 @@ Natours is fictional company that offers tours in a nature for adventours people
    * [Badges](#badges)
    * [Contributing](#contributing)
    * [License](#license)
-   * [Visuals](#visuals)
    * [Acknowledgements](#acknowledgements)
 
 
@@ -25,10 +24,6 @@ Natours is fictional company that offers tours in a nature for adventours people
 The main goal of this project is to demonstrate HTML, CSS and SASS knowledge. Built with advanced CSS techniques using the floats based layout.
 
 This website has no functionality, it only presents the user interface of a tourism company.
-
-## Visuals
-
-![]
 
   
 ## Built with
