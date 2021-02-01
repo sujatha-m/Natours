@@ -615,11 +615,19 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        width: 100%;
+        display: inline-block; } }
   .popup__right {
     width: 66.666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 56.25em) {
+      .popup__right {
+        width: 100%;
+        display: inline-block; } }
   .popup__img {
     display: block;
     width: 100%; }
@@ -636,6 +644,11 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 56.25em) {
+      .popup__text {
+        width: 90%;
+        display: inline-block;
+        column-count: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }

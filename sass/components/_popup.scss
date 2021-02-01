@@ -10,6 +10,8 @@
    visibility: hidden;
    transition: all .3s;
 
+   
+
     &__content{
         @include absCenter;
         width: 75%;
@@ -26,6 +28,15 @@
     &__left{
        width: 33.333333%;
        display: table-cell;
+
+       @include respond(tab-port){
+       width: 100%;
+       display: inline-block;
+    }
+    @include respond(Phone){
+        width: 100%;
+        display: inline-block;
+     }
     }
 
     &__right{
@@ -34,6 +45,15 @@
        vertical-align: middle;
        padding: 3rem 5rem;
 
+       @include respond(tab-port){
+        width: 100%;
+        display: inline-block
+     }
+
+     @include respond(Phone){
+        width: 100%;
+        display: inline-block;
+     }
     }
 
     &__img{
@@ -44,7 +64,6 @@
     &__text{
         font-size: 1.4rem;
         margin-bottom: 4rem;
-
 
         -moz-column-count: 2;column-count: 2;
         -moz-column-gap: 4rem; //1em = 14px;
@@ -57,6 +76,18 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-port){
+            width: 90%;
+            display: inline-block;
+            column-count:1;
+         }
+    
+         @include respond(Phone){
+            width: 100%;
+            display: inline-block;
+            column-count: 1;
+         }
     }
 //open states
     &:target{
