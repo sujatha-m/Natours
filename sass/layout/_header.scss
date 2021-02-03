@@ -19,9 +19,9 @@
     //dpi dot per inch
     //to convert into ems 600px/16=37.5ems
     //                    2000px/16 = 125em
-    @media (min-resolution: 192dpi) and (min-width: 37.5em),
-           (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),//web prefix for all browsers
-           (min-width: 2000px){
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+           only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),//web prefix for all browsers
+           only screen and (min-width: 2000px){
         background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.8),
